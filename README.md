@@ -46,6 +46,6 @@ Users should be able to:
 
 - Frontend Mentor - [Vinit-Kumbhare](https://www.frontendmentor.io/profile/Vinit-Kumbhare)
 - Github - [vinitGithub099](https://github.com/vinitGithub099)
-- LinkedIn - [Vinit Kumbhare](www.linkedin.com/in/vinit-kumbhare-5528a221a)
+- LinkedIn - [Vinit Kumbhare](https://www.linkedin.com/in/vinit-kumbhare-5528a221a/)
 
 
