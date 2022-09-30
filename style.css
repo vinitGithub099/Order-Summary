@@ -1,0 +1,272 @@
+/* - Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */ 
+
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: aqua; */
+}
+
+.container{
+    width: 100%;
+    height: 46.5rem;
+    background-color: hsl(225, 100%, 95%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#card{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 30px; */
+}
+.design{
+    height: 30%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: 1px solid black; */
+    background-image: url("images/illustration-hero.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summary{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* padding: 1em 1em; */
+}
+.box{
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 0;
+    margin: 0%;
+}
+
+#box-1{
+    width: 80%;
+}
+
+#box-1 h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#box-2{
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
+
+#box-3{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    width: 70%;
+    background-color: hsl(225, 100%, 98%);
+}
+.text{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    font-size: 1em;
+}
+.change{
+    /* border: 1px solid black; */
+    /* color: hsl(245, 75%, 52%); */
+    justify-self: center;
+    align-self: center;
+}
+.change a{
+    color: hsla(245, 75%, 52%, 0.932);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.change a:hover{
+    color: hsl(245deg 66% 63%);
+    text-decoration: none;
+}
+.round-music-logo{
+    background-image: url("images/icon-music.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: blue; */
+    width: 2.3em;
+    height: 2.3em;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+
+#box-4{
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: 80%;
+    height: 2.3em;
+    border-radius: 5px;
+}
+#box-4 button{
+    /* background-color: rgba(7, 7, 128, 0.295); */
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 10px 10px 2px hsl(245deg 66% 90%);
+
+}
+#box-4 button:hover{
+    background-color: hsl(245deg 66% 63%);
+    cursor: pointer;
+}
+/* #box-5{
+
+} */
+#box-5 a{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#box-5 a:hover{
+    color: black;
+}
+
+@media only screen and (max-height: 400px) {
+
+    #card{
+        width: 100%;
+        height: 100%;
+    }
+
+    #box-2{
+        display: none;
+    }
+    .box{
+        font-size: 0.7em;
+    }
+    
+}
+
+
+/* media queries */
+
+
+
+@media only screen and (max-width: 300px) {
+
+    #card{
+        width: 100%;
+        height: 90%;
+    }
+    #box-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .text,.change.round-music-logo{
+        margin: 0.5rem;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+
+    .container{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
+    #card{
+        width: 90%;
+        height: 90%;
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+    #card{
+        width: 60%;
+        height: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #card{
+        width: 55%;
+        height: 90%;
+    }
+    .design{
+        height: 30%;
+    }
+    .summary{
+        height: 70%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #card{
+        width: 35%;
+        height: 85%;
+    }
+    /* .container{
+        background-image: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #card{
+        width: 30%;
+    }
+
+}
