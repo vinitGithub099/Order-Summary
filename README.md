@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vinitGithub099/Order-Summary)
-- Live Site URL: [Add live site URL here](https://vinitgithub099.github.io/Order-Summary/)
+- Solution URL: [https://github.com/vinitGithub099/Order-Summary](https://github.com/vinitGithub099/Order-Summary)
+- Live Site URL: [https://vinitgithub099.github.io/Order-Summary/](https://vinitgithub099.github.io/Order-Summary/)
 
 ## My process
 
