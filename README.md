@@ -16,7 +16,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Overview
 
-![alt text](images/OrderSummary.png "Order Summary Page")
+![](./images/OrderSummary.png "Order Summary Page")
 
 ### The challenge
 
@@ -44,6 +44,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Vinit-Kumbhare](https://www.frontendmentor.io/profile/Vinit-Kumbhare)
+- Frontend Mentor - [Vinit-Kumbhare](https://www.frontendmentor.io/profile/Vinit-Kumbhare)
+- Github - [vinitGithub099](https://github.com/vinitGithub099)
+- LinkedIn - [Vinit Kumbhare](www.linkedin.com/in/vinit-kumbhare-5528a221a)
 
 
