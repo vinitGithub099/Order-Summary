@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Resource](https://www.w3schools.com) - This helped me for adjusing the breakpoints in using the media queries reason. I really liked this pattern and will use it going forward.
+- [https://www.w3schools.com](https://www.w3schools.com) - This helped me for adjusing the breakpoints in using the media queries reason. I really liked this pattern and will use it going forward.
 
 
 ## Author
