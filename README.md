@@ -44,7 +44,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Vinit-Kumbhare](https://www.frontendmentor.io/profile/Vinit-Kumbhare)
+- Frontend Mentor - [Vinit-Kumbhare](https://www.frontendmentor.io/profile/vinitGithub099)
 - Github - [vinitGithub099](https://github.com/vinitGithub099)
 - LinkedIn - [Vinit Kumbhare](https://www.linkedin.com/in/vinit-kumbhare-5528a221a/)
 
